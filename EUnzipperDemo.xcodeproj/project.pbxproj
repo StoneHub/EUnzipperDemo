@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EBAF1551BDC6D1400C99653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAF1541BDC6D1400C99653 /* AppDelegate.swift */; };
+		8EBAF1571BDC6D1400C99653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAF1561BDC6D1400C99653 /* ViewController.swift */; };
+		8EBAF15A1BDC6D1400C99653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAF1581BDC6D1400C99653 /* Main.storyboard */; };
+		8EBAF15C1BDC6D1400C99653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAF15B1BDC6D1400C99653 /* Assets.xcassets */; };
+		8EBAF15F1BDC6D1400C99653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAF15D1BDC6D1400C99653 /* LaunchScreen.storyboard */; };
+		8EBAF16A1BDC6D1400C99653 /* EUnzipperDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAF1691BDC6D1400C99653 /* EUnzipperDemoTests.swift */; };
+		8EBAF1751BDC6E9600C99653 /* EUnzipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAF1741BDC6E9600C99653 /* EUnzipper.framework */; };
+		8EBAF1781BDC6F3D00C99653 /* A Bend in the River - V.S. Naipaul.epub in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAF1771BDC6F3D00C99653 /* A Bend in the River - V.S. Naipaul.epub */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EBAF1661BDC6D1400C99653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBAF1491BDC6D1400C99653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBAF1501BDC6D1400C99653;
+			remoteInfo = EUnzipperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EBAF1511BDC6D1400C99653 /* EUnzipperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EUnzipperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBAF1541BDC6D1400C99653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EBAF1561BDC6D1400C99653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EBAF1591BDC6D1400C99653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EBAF15B1BDC6D1400C99653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EBAF15E1BDC6D1400C99653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EBAF1601BDC6D1400C99653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBAF1651BDC6D1400C99653 /* EUnzipperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EUnzipperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBAF1691BDC6D1400C99653 /* EUnzipperDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUnzipperDemoTests.swift; sourceTree = "<group>"; };
+		8EBAF16B1BDC6D1400C99653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBAF1741BDC6E9600C99653 /* EUnzipper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EUnzipper.framework; path = Carthage/Build/iOS/EUnzipper.framework; sourceTree = "<group>"; };
+		8EBAF1771BDC6F3D00C99653 /* A Bend in the River - V.S. Naipaul.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Bend in the River - V.S. Naipaul.epub"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBAF14E1BDC6D1400C99653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBAF1751BDC6E9600C99653 /* EUnzipper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBAF1621BDC6D1400C99653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EBAF1481BDC6D1400C99653 = {
+			isa = PBXGroup;
+			children = (
+				8EBAF1741BDC6E9600C99653 /* EUnzipper.framework */,
+				8EBAF1531BDC6D1400C99653 /* EUnzipperDemo */,
+				8EBAF1681BDC6D1400C99653 /* EUnzipperDemoTests */,
+				8EBAF1521BDC6D1400C99653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBAF1521BDC6D1400C99653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAF1511BDC6D1400C99653 /* EUnzipperDemo.app */,
+				8EBAF1651BDC6D1400C99653 /* EUnzipperDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBAF1531BDC6D1400C99653 /* EUnzipperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAF1771BDC6F3D00C99653 /* A Bend in the River - V.S. Naipaul.epub */,
+				8EBAF1541BDC6D1400C99653 /* AppDelegate.swift */,
+				8EBAF1561BDC6D1400C99653 /* ViewController.swift */,
+				8EBAF1581BDC6D1400C99653 /* Main.storyboard */,
+				8EBAF15B1BDC6D1400C99653 /* Assets.xcassets */,
+				8EBAF15D1BDC6D1400C99653 /* LaunchScreen.storyboard */,
+				8EBAF1601BDC6D1400C99653 /* Info.plist */,
+			);
+			path = EUnzipperDemo;
+			sourceTree = "<group>";
+		};
+		8EBAF1681BDC6D1400C99653 /* EUnzipperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAF1691BDC6D1400C99653 /* EUnzipperDemoTests.swift */,
+				8EBAF16B1BDC6D1400C99653 /* Info.plist */,
+			);
+			path = EUnzipperDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBAF1501BDC6D1400C99653 /* EUnzipperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBAF16E1BDC6D1400C99653 /* Build configuration list for PBXNativeTarget "EUnzipperDemo" */;
+			buildPhases = (
+				8EBAF14D1BDC6D1400C99653 /* Sources */,
+				8EBAF14E1BDC6D1400C99653 /* Frameworks */,
+				8EBAF14F1BDC6D1400C99653 /* Resources */,
+				8EBAF1761BDC6EA200C99653 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUnzipperDemo;
+			productName = EUnzipperDemo;
+			productReference = 8EBAF1511BDC6D1400C99653 /* EUnzipperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EBAF1641BDC6D1400C99653 /* EUnzipperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBAF1711BDC6D1400C99653 /* Build configuration list for PBXNativeTarget "EUnzipperDemoTests" */;
+			buildPhases = (
+				8EBAF1611BDC6D1400C99653 /* Sources */,
+				8EBAF1621BDC6D1400C99653 /* Frameworks */,
+				8EBAF1631BDC6D1400C99653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBAF1671BDC6D1400C99653 /* PBXTargetDependency */,
+			);
+			name = EUnzipperDemoTests;
+			productName = EUnzipperDemoTests;
+			productReference = 8EBAF1651BDC6D1400C99653 /* EUnzipperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBAF1491BDC6D1400C99653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Stone;
+				TargetAttributes = {
+					8EBAF1501BDC6D1400C99653 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G5P97MTSW8;
+					};
+					8EBAF1641BDC6D1400C99653 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G5P97MTSW8;
+						TestTargetID = 8EBAF1501BDC6D1400C99653;
+					};
+				};
+			};
+			buildConfigurationList = 8EBAF14C1BDC6D1400C99653 /* Build configuration list for PBXProject "EUnzipperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EBAF1481BDC6D1400C99653;
+			productRefGroup = 8EBAF1521BDC6D1400C99653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBAF1501BDC6D1400C99653 /* EUnzipperDemo */,
+				8EBAF1641BDC6D1400C99653 /* EUnzipperDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBAF14F1BDC6D1400C99653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBAF15F1BDC6D1400C99653 /* LaunchScreen.storyboard in Resources */,
+				8EBAF15C1BDC6D1400C99653 /* Assets.xcassets in Resources */,
+				8EBAF15A1BDC6D1400C99653 /* Main.storyboard in Resources */,
+				8EBAF1781BDC6F3D00C99653 /* A Bend in the River - V.S. Naipaul.epub in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBAF1631BDC6D1400C99653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EBAF1761BDC6EA200C99653 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EUnzipper.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBAF14D1BDC6D1400C99653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBAF1571BDC6D1400C99653 /* ViewController.swift in Sources */,
+				8EBAF1551BDC6D1400C99653 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBAF1611BDC6D1400C99653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBAF16A1BDC6D1400C99653 /* EUnzipperDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EBAF1671BDC6D1400C99653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBAF1501BDC6D1400C99653 /* EUnzipperDemo */;
+			targetProxy = 8EBAF1661BDC6D1400C99653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EBAF1581BDC6D1400C99653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBAF1591BDC6D1400C99653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EBAF15D1BDC6D1400C99653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBAF15E1BDC6D1400C99653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EBAF16C1BDC6D1400C99653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EBAF16D1BDC6D1400C99653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBAF16F1BDC6D1400C99653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EUnzipperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EUnzipperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EBAF1701BDC6D1400C99653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EUnzipperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EUnzipperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EBAF1721BDC6D1400C99653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EUnzipperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EUnzipperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EUnzipperDemo.app/EUnzipperDemo";
+			};
+			name = Debug;
+		};
+		8EBAF1731BDC6D1400C99653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EUnzipperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EUnzipperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EUnzipperDemo.app/EUnzipperDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBAF14C1BDC6D1400C99653 /* Build configuration list for PBXProject "EUnzipperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBAF16C1BDC6D1400C99653 /* Debug */,
+				8EBAF16D1BDC6D1400C99653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBAF16E1BDC6D1400C99653 /* Build configuration list for PBXNativeTarget "EUnzipperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBAF16F1BDC6D1400C99653 /* Debug */,
+				8EBAF1701BDC6D1400C99653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBAF1711BDC6D1400C99653 /* Build configuration list for PBXNativeTarget "EUnzipperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBAF1721BDC6D1400C99653 /* Debug */,
+				8EBAF1731BDC6D1400C99653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBAF1491BDC6D1400C99653 /* Project object */;
+}
